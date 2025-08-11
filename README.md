@@ -20,3 +20,5 @@
     ### Python script
     
     ```./emulator.py examples/helloworld.bin```
+
+    You are free to use this repository however you like. If you fork or modify it, I’d love it if you tag or mention me—just so I can check out what you’ve built!
