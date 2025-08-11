@@ -1,4 +1,4 @@
-; example: print HELLO and halt
+; example: print "HELLO" and halt
         LDI A, 'H'
         OUT A
         LDI A, 'e'
