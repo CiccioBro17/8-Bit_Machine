@@ -1,7 +1,9 @@
 # 8bit — Tiny 8-bit emulator + assembler
 
 ## Quickstart
-1. Put this folder in your Linux machine (or clone the repo).
+1. Clone this repo in your Linux machine:
+
+    ```git clone https://github.com/CiccioBro17/8bit.git```
 2. Make Python scripts executable:
 
     ```chmod +x emulator.py asm.py run```
