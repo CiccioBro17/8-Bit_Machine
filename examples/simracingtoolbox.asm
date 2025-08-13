@@ -1,5 +1,5 @@
-; example: print "visit https://bit.ly/4fAZHXG" and halt
-        LDI A, 'v'
+; example: print "Visit https://bit.ly/4fAZHXG !!" and halt
+        LDI A, 'V'
         OUT A
         LDI A, 'i'
         OUT A
@@ -54,6 +54,12 @@
         LDI A, 'X'
         OUT A
         LDI A, 'G'
+        OUT A
+        LDI A, ' '
+        OUT A
+        LDI A, '!'
+        OUT A
+        LDI A, '!'
         OUT A
         LDI A, 10 
         ; newline
