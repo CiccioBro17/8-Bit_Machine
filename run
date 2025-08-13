@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
 set -e
 BASE="$(cd "$(dirname "$0")" && pwd)"
-python3 "$BASE/asm.py" "$BASE/examples/yomrwhite.asm" -o "$BASE/examples/yomrwhite.bin"
-python3 "$BASE/emulator.py" "$BASE/examples/yomrwhite.bin"
+python3 "$BASE/asm.py" "$BASE/examples/simracingtoolbox.asm" -o "$BASE/examples/simracingtoolbox.bin"
+python3 "$BASE/emulator.py" "$BASE/examples/simracingtoolbox.bin"
